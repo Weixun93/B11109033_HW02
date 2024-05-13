@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">B11109033_HW02</string>
+    <string name="siteName_1">台中國家歌劇院</string>
+    <string name="siteName_2">國家戲劇院</string>
+    <string name="siteName_3">台北美術館</string>
+    <string name="siteName_4">台北木柵動物園</string>
+    <string name="siteName_5">高雄壽山動物園</string>
+    <string name="siteName_6">高跟鞋教堂</string>
+    <string name="briefInfo_1">台灣首座專為歌劇及表演藝術設計的國家級場館，設備先進，外觀獨特。</string>
+    <string name="briefInfo_2">台灣主要的表演藝術場地，位於台北市信義區，具有現代化設施和重要文化地位。</string>
+    <string name="briefInfo_3">台灣台北市中心，是一座重要的藝術展覽場所，展示國內外藝術品，包括繪畫、雕塑和多媒體作品。</string>
+    <string name="briefInfo_4">是一座知名的動物園，擁有豐富多樣的動物種類，是家庭及遊客喜愛的休閒景點。</string>
+    <string name="briefInfo_5">是一座著名的動物園，擁有豐富多樣的動物品種，以其山林環境和生態保育工作而聞名。</string>
+    <string name="briefInfo_6">高跟鞋教堂位於台灣嘉義市，外觀獨特，以紅色高跟鞋形狀的頂部為特色。</string>
+    <string name="siteDescription_1">
+        臺中國家歌劇院是位於臺灣臺中市西屯區七期重劃區裡的大型公有展演空間，為日本建築師伊東豊雄設計，佔地57,685平方公尺。歌劇院內擁有大劇院（2,007席）、中劇院（794席）、小劇場（200席）以及一個小型戶外劇場，另有餐飲空間與空中花園。
+    </string>
+    <string name="siteDescription_2">
+        位於台灣臺北市，與國家音樂廳合稱為「國家兩廳院」，為台灣重要的戲劇、舞蹈表演場地。原隸屬教育部國立中正文化中心，2014年4月2日改為文化部監督之行政法人國家表演藝術中心管理。
+    </string>
+    <string name="siteDescription_3">
+        作為臺灣首座公立美術館，自開館以來即肩負推動臺灣現當代藝術的保存、研究、發展與普及之使命。除整理臺灣近百年美術史外，亦持續關注發展中的當代藝術。運作方針為積極掌握全球視野，建構區域脈絡，扶植藝術人才，推動藝術教育，以促進藝術生態發展，提升全民文化修為和藝術涵養，臻於具審美觀、創造性與思辨力的當代社會。
+    </string>
+    <string name="siteDescription_4">
+        臺北市立動物園是中華民國臺灣臺北市的一座公立動物園，隸屬於臺北市政府教育局。1914年創立於圓山地區，舊稱「圓山動物園」，與臺北市立兒童育樂中心（臺北市立兒童新樂園舊址，今圓山遺址）相鄰。1986年，因圓山原址無法擴建，而遷至木柵區（今文山區），因此成為臺灣民眾現在所熟悉的「木柵動物園」。
+    </string>
+    <string name="siteDescription_5">
+        高雄市壽山動物園是高雄市的市立動物園，位於壽山東南麓，創立於1978年，當時設置於壽山西麓西子灣，為西子灣動物園；於1986年搬遷至壽山東南麓，改稱壽山動物園。搬遷後的壽山動物園，面積12.89公頃，目前隸屬於高雄市政府觀光局管轄。曾在2009年及2021年封園進行了大幅度整修，2022年12月16日重新開園。
+    </string>
+    <string name="siteDescription_6">
+        是位於臺灣嘉義縣布袋鎮海景公園內的大型裝置藝術造景，由雲嘉南濱海國家風景區管理處建造。雖名為教堂，但不是基督教宗教場所，未有牧師或神父等神職人員駐在，與水晶教堂同為無宗教性的西式結婚禮堂及婚紗拍攝地點。
+    </string>
+    <string name="about">About:</string>
+</resources>
