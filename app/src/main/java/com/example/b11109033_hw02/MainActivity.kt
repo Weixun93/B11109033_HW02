@@ -21,7 +21,7 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            B11109033_HW02Theme(darkTheme = true) {
+            B11109033_HW02Theme() {
                 Surface(
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
@@ -46,7 +46,11 @@ class MainActivity : ComponentActivity() {
                             )
                         ) { // Retrieve the index of the pressed card.
                             index->
-                            DetailScreen(itemIndex = index.arguments?.getInt("index"))
+                            DetailScreen(
+                                modifier = Modifier,
+                                navController,
+                                itemIndex = index.arguments?.getInt("index")
+                            )
                         }
                     }
                 }

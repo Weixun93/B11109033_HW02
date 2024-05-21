@@ -2,16 +2,18 @@ package com.example.b11109033_hw02.screens
 
 import android.content.Intent
 import android.net.Uri
-import android.widget.Toast
 import androidx.activity.compose.rememberLauncherForActivityResult
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.compose.foundation.Image
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Button
 import androidx.compose.material3.MaterialTheme
@@ -27,13 +29,14 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import androidx.core.content.ContextCompat.startActivity
-import androidx.lifecycle.viewmodel.compose.viewModel
+import androidx.navigation.NavController
 import com.example.b11109033_hw02.ViewsInfo
+import com.example.b11109033_hw02.R.drawable
 
 @Composable
 fun DetailScreen(
     modifier: Modifier = Modifier,
+    navController: NavController,
     itemIndex: Int?
 ) {
     Column(
@@ -42,6 +45,21 @@ fun DetailScreen(
             .padding(20.dp),
         verticalArrangement = Arrangement.spacedBy(20.dp)
     ) {
+        Box(
+            modifier = Modifier.fillMaxWidth()
+        ) {
+            Button(onClick = {
+                navController.navigate(route = "MainScreen")
+            }) {
+                Image(
+                    painterResource(id = drawable.back),
+                    contentDescription = null,
+                    modifier = Modifier
+                        .size(20.dp)
+                        .clip(CircleShape)
+                )
+            }
+        }
         // "Arrange photos, detailed descriptions, and buttons."
         Box(
             modifier = Modifier.fillMaxWidth(),
@@ -54,13 +72,13 @@ fun DetailScreen(
         }
         Text(
             text = stringResource(ViewsInfo[itemIndex!!].name),
-            color = Color.White,
+            color = Color.Black,
             fontSize = 30.sp,
             fontWeight = FontWeight.Bold,
         )
         Text(
             text = stringResource(ViewsInfo[itemIndex!!].directions),
-            color = Color.White,
+            color = Color.Black,
             fontSize = 20.sp,
             modifier = Modifier.padding(10.dp)
         )
